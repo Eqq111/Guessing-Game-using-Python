@@ -19,3 +19,5 @@ while (guess != randnum):
             break
     count = count +1
 #end of while loop
+
+print("You took " + str(count) + "Ssteps to guess the number")
