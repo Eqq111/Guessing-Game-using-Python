@@ -6,3 +6,7 @@ randnum = random.randint(1,101)
 
 if guess < randnum:
   print ("higher")
+else guess > randnum:
+  print ("lower")
+else:
+  print ("you guessed it!")
