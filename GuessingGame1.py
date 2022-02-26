@@ -44,3 +44,4 @@ while (guess != randnum):
 #end of while loop
 
 print("You took " + str(count) + "steps to guess the number")
+print("Computer took " + str(computerGuess(0,100, randnum))+ " steps!")
